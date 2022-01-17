@@ -308,6 +308,10 @@ body{
 
     margin-top: 50px;
 }
+ .link-heading {
+    font-family: poppins; 
+    font-size: 1.2rem;
+}
 .p2{
     margin-bottom: 12px;
     position: absolute;
