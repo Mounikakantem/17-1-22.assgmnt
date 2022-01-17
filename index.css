@@ -118,8 +118,7 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin-bottom: 2rem;  
-    height: 90vh;
+    height: 100vh;
    
 }  
 .Lorem-heading {
@@ -161,11 +160,12 @@ body{
    .img-container {
        width: 24rem;
        box-shadow:0 3px 10px rgb(163, 134, 134);
-       width:18rem;
-       padding: 0.2rem 0.3rem 0.8rem;
-       margin-right:1rem;
-       margin-top:1 rem;  
-       margin-bottom: 1.8rem;
+       width:20rem;
+       margin-right:4rem;
+       margin-top:1.5rem;  
+       margin-bottom:1.4rem;
+       padding:2px 1px 1.5rem 2rem;
+      
    }
 }
 @media screen and (min-width:768px){
@@ -188,11 +188,11 @@ body{
 }
 .description{
     color:#7c6f6f;
-    font-size:1rem;
+    font-size:14px;
 }
 @media screen and (min-width:768px){
     .description{
-        font-size:1rem;
+        font-size:1.1rem;
     
     
 }
@@ -202,21 +202,14 @@ body{
 
     } 
 }
-@media screen and (min-width:768px){
-         .img-container {
-            margin-top: 1.5rem; 
-            margin-right: 4rem;  
-            padding-left: 2rem;  
-            padding-bottom: 1.5rem; 
-            
-         }
- 
-}
+
 .section2{
     padding:0.9rem 2rem;
     color:white;
     border:none;
     border-radius:2rem;
+    font-size: 1.1rem; 
+    font-family: poppins;
 }
 .action-btn1 {
     background-image: linear-gradient(to right,#4A90FF,#be87d8,#FA3BB1);
