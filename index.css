@@ -371,19 +371,19 @@ body{
 .copyright{
     text-align: center;
 }
-.icon-facebook1::after{
+.icon-facebook1::before{
      font-family: "icomoon";
      content: "\e907";
     font-size:2.6rem;
     color:rgb(42, 42, 228); 
 }
-.icon-twitter1::after{
+.icon-twitter1::before{
      font-family: "icomoon";
      content: "\e908";
     font-size:2.6rem;
     color:rgb(82, 160, 190);
 }
-.icon-google-plus::after{
+.icon-google-plus::before{
      font-family: "icomoon";
      content: "\e902";
     font-size:1.9rem;
@@ -392,14 +392,14 @@ body{
     padding-bottom: 5px;
 
 }
-.icon-linkedin1::after{
+.icon-linkedin1::before{
      font-family: "icomoon";
      content: "\e906";
     font-size:2.6rem;
     color:aqua; 
     border: 1px;
 }
-.icon-instagram::after{
+.icon-instagram::before{
      font-family: "icomoon";
      content: "\e904";
     font-size:2rem; 
