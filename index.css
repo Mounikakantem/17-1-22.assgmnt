@@ -9,13 +9,14 @@ body{
     background-color: rgb(22, 4, 4); 
     font-family: poppins; 
     height: 60vh; 
+    width:100vw
 }
 @media screen and (min-width:768px) {
    .page-section1 {
     background-image: linear-gradient(to right, #290ef3da, #6de6c3);
     background-color: rgb(22, 4, 4); 
     font-family: poppins; 
-    height: 100vh;
+    height: 85vh;
 
 }
 }
