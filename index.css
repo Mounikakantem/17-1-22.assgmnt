@@ -483,15 +483,15 @@ html {
         margin: 0px;
     }
     .paragraph {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
     .buttonsec3 {
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
     }
     .button1{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     .button2 {
         border:1px solid #2AFAC2;
@@ -528,13 +528,13 @@ html {
     }
     .copyrights-box::before {
         content: "";
-        border-bottom: 1.5px solid grey;
+        border-bottom: 1px solid grey;
         height:10px;
         width:25%
     }
     .copyrights-box::after {
         content: "";
-        border-bottom: 1.5px solid grey;
+        border-bottom: 1px solid grey;
         height:10px;
         width:25%
     }
@@ -658,14 +658,14 @@ html {
     }
     .copyrights-box::before {
         content: "";
-        border-bottom: 1.5px solid grey;
         height:10px;
+        border-bottom: 1px solid grey;
         width:25%
     }
     .copyrights-box::after {
         content: "";
-        border-bottom: 1.5px solid grey;
         height:10px;
+        border-bottom: 1px solid grey;
         width:25%
     }  
 
