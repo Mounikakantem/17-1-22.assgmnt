@@ -280,12 +280,12 @@ html {
     
 }
 .nmbr2 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
 }
 .nmbr3 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left:1.6rem;
+    padding-right:1.6rem;
 }
 .nmbr4 {
     padding-left: 50px;
@@ -353,38 +353,38 @@ html {
 .icon {
     text-decoration: none;
 }
-.icon-facebook1::after {
+.icon-facebook1::before {
     content: "\e907";
     font-family: "icomoon";
-    font-size: 40px; 
+    font-size: 4rem; 
     padding: 6px;
     color: blue;
 }
-.icon-twitter1::after {
+.icon-twitter1::before {
     content: "\e908";
     font-family: "icomoon";
-    font-size: 40px; 
+    font-size: 4rem; 
     padding: 6px;
     color: blue;
 }
-.icon--google-plus::after {
+.icon--google-plus::before {
     content: "\e902";
     font-family: "icomoon";
-    font-size: 40px; 
+    font-size: 3.5rem; 
     padding: 6px;
     color: #db4a39 ;
 }
-.icon-linkedin1::after {
+.icon-linkedin1::before {
     content: "\e906";
     font-family: "icomoon";
-    font-size: 40px; 
+    font-size: 4rem; 
     padding: 6px;
     color: #0077b5;
 }
-.icon-instagram::after {
+.icon-instagram::before{
     content: "\e904";
     font-family: "icomoon";
-    font-size: 36px; 
+    font-size:3rem; 
     padding: 6px;
     color: #fb3958;
 }
