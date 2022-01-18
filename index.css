@@ -216,18 +216,18 @@ html {
 }
 .button1 {
     border:1px solid #FFC04A;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
 }
 .button2 {
     border:1px solid #2AFAC2;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1.6rem;
+    padding-right:1.6rem;
 }
 .button3 {
     border:1px solid #45E2FF;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
    
 }
 .actionLinkContainer {
@@ -289,12 +289,12 @@ html {
     padding-right:1.6rem;
 }
 .nmbr4 {
-    padding-left: 50px;
-    padding-right: 55px;
+    padding-left: 5rem;
+    padding-right: 5.5rem;
 }
 .nmbr5 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     background-color: #EFEDED;
     opacity: 0.5;
     border:0px;
