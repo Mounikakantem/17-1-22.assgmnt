@@ -370,13 +370,15 @@ html {
     transition:3s;  
 } 
 .pack-of-items:hover {
-    background-color:lightpink;
+   color: #FA3B6E;
 }
+    
 .link-heading {
     font-family: Poppins;
     font-weight: bold;
     margin: 0px;
-    font-size:2rem;
+    font-size:2rem; 
+    transition:1s;
 }
 .f-links {
     font-family: Poppins;
@@ -384,6 +386,9 @@ html {
     text-decoration: none;
     color: #504450; 
     font-size:1.6rem;
+} 
+.f-links:hover {
+    color: #FA3B6E;
 }
 .partner {
     display: flex;
