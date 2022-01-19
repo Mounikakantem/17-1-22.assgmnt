@@ -6,15 +6,8 @@
 html {
     font-size: 10px;
 } 
-.signup-btn{
-    background-image: linear-gradient(to right, #8a0ee9de, #f16634);
-    cursor: pointer;
-}
-.login-btn{
-    background-image: linear-gradient(to right, #b47727, hsl(21, 94%, 51%));
-    cursor: pointer;
-}
-.link-heading li a{
+
+.link-heading ul a{
     text-decoration: none;
     color: black;
 }  
@@ -124,7 +117,7 @@ html {
 }
 .card-container {
     width:23rem;
-    height: 22rem;
+    height: 24rem;
     box-shadow: rgba(83, 83, 94, 0.2)0px 7px 29px 0px;
     display: flex;
     flex-direction: column;
@@ -203,12 +196,12 @@ html {
     background-color: #24093E;
     font-family: Poppins;
     color: #ffffff;
+    font-size: 1.3rem; 
+    padding:0.8rem  0px 0.8rem 0px;
     border-radius: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem; 
-    padding:0.8rem  0px 0.8rem 0px;
     margin:1.2rem;
     margin-left: 0px;
     min-width:5rem;
@@ -222,7 +215,7 @@ html {
 .button2 {
     border:1px solid #2AFAC2;
     padding-left: 1.6rem;
-    padding-right:1.6rem;
+    padding-right: 1.6rem;
 }
 .button3 {
     border:1px solid #45E2FF;
@@ -285,19 +278,19 @@ html {
     padding-right: 1.6rem;
 }
 .nmbr3 {
-    padding-left:1.6rem;
-    padding-right:1.6rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
 }
 .nmbr4 {
     padding-left: 5rem;
-    padding-right: 5.5rem;
+    padding-right: 5.6rem;
 }
 .nmbr5 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #EFEDED;
-    opacity: 0.5;
     border:0px;
+    opacity: 0.5;
 }
 
 .LinkSection4 {
@@ -312,7 +305,7 @@ html {
 .pack-of-items {
     display: flex;
     flex-direction: column;
-    padding:1.4rem;
+    padding:1.4rem;   
 }
 .link-heading {
     font-family: Poppins;
@@ -355,36 +348,36 @@ html {
     text-decoration: none;
 }
 .icon-facebook1::before {
-    content: "\e907";
     font-family: "icomoon";
-    font-size: 4rem; 
+    content: "\e907";
+    font-size: 40px; 
     padding: 6px;
     color: blue;
 }
 .icon-twitter1::before {
-    content: "\e908";
     font-family: "icomoon";
-    font-size: 4rem; 
+    content: "\e908";
+    font-size: 40px; 
     padding: 6px;
     color: blue;
 }
-.icon-google-plus::before {
-    content: "\e902";
+.icon--google-plus::before {
     font-family: "icomoon";
-    font-size: 3.5rem; 
+    content: "\e902";
+    font-size:3.5rem; 
     padding: 6px;
     color: #db4a39 ;
 }
 .icon-linkedin1::before {
-    content: "\e906";
     font-family: "icomoon";
-    font-size: 4rem; 
+    content: "\e906";
+    font-size: 40px; 
     padding: 6px;
     color: #0077b5;
 }
 .icon-instagram::before{
-    content: "\e904";
     font-family: "icomoon";
+    content: "\e904";
     font-size:3rem; 
     padding: 6px;
     color: #fb3958;
@@ -450,12 +443,12 @@ html {
         padding:30px;
         padding-left: 30px;
         margin: 20px;
-        margin-bottom:40px ;
+        margin-bottom:3rem ;
     }
     .card-image{
-        width:6.4rem;
-        height:6.7rem;
-        padding-bottom:2.7rem;
+        width:8rem;
+        height:7rem;
+        padding-bottom:2rem;
     }
     .title {
         font-family:Poppins;
@@ -483,15 +476,15 @@ html {
         margin: 0px;
     }
     .paragraph {
-        font-size: 1.5rem;
+        font-size: 15px;
     }
     .buttonsec3 {
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
     .button1{
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .button2 {
         border:1px solid #2AFAC2;
@@ -528,13 +521,13 @@ html {
     }
     .copyrights-box::before {
         content: "";
-        border-bottom: 1px solid grey;
+        border-bottom: 1.5px solid grey;
         height:10px;
         width:25%
     }
     .copyrights-box::after {
         content: "";
-        border-bottom: 1px solid grey;
+        border-bottom: 1.5px solid grey;
         height:10px;
         width:25%
     }
@@ -587,21 +580,22 @@ html {
     }
     .card-container {
         width:415px;
-        height: 380px;
+        height: 33rem;                                     
         padding-left: 40;
         padding-top: 80;
         padding-right: 60;
-        padding-bottom: 90;
-        margin: 40; 
+        padding-bottom:2rem;
+        margin:40; 
     }
     .card-image {
-        width:6.4rem;
-        height:6.7rem;
-        padding-bottom:4rem;
+        width:7rem;
+        height:7rem;
+        padding-bottom:2.2rem;
     }
     .title {
-        font-size:3rem;
-        margin: 0px;
+        font-size:2.8rem;
+        margin: 0px; 
+      
     }
     .description {
         font-size:2rem;
@@ -658,14 +652,14 @@ html {
     }
     .copyrights-box::before {
         content: "";
+        border-bottom: 1.5px solid grey;
         height:10px;
-        border-bottom: 1px solid grey;
         width:25%
     }
     .copyrights-box::after {
         content: "";
+        border-bottom: 1.5px solid grey;
         height:10px;
-        border-bottom: 1px solid grey;
         width:25%
     }  
 
