@@ -158,12 +158,10 @@ html {
     margin-bottom:5rem ;
     transition:1s;
 } 
-.card1:hover {
+.card-container:hover {
     transform: rotate(180deg);  
 }     
-.card2:hover {
-    transform: rotate(180deg);  
-}   
+
 .card-image{   
     width:6.4rem;
     height:6.7rem;
