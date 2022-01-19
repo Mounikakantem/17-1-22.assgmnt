@@ -41,7 +41,8 @@ html {
     list-style-type: none; 
 }  
 .btn-section{
-    padding-left: 0.6rem;
+    padding-left: 0.6rem; 
+    transition:1s;
 }
 .signup-btn{
     background-image: linear-gradient(to right, #8a0ee9de, #f16634);
@@ -77,6 +78,11 @@ html {
      flex-direction: column; 
      justify-content: center; 
      align-items: center;
+     transition:  0.5s;
+}  
+
+.dots-icon:hover {
+    transform: rotate(180deg);
 }
 .heading {
     color:white;
@@ -84,14 +90,25 @@ html {
     font-family:Poppins; 
     font-weight: 900;
     margin-left: 1.3rem;
-    padding: 0px; 
+    padding: 0px;  
+
 }  
 .laptop-img {
     width: 25rem; 
     height: 25rem;  
     margin-left: 0px;
-    padding-left: 0px; 
-}  
+    padding-left: 0px;   
+}   
+.laptop-img:hover {
+    position: relative; 
+    animation:example 2s infinite linear;
+}
+@keyframes example {
+        0%   {left:0px; bottom:0px;}
+        25%   {left:0px; bottom:40px;}
+        50%   {left:0px; bottom:55px;}
+        100%   {left:0px; bottom:25px;}
+      }
 /*------section2--------*/
 .bg-containersection2{
     display: flex;
@@ -204,18 +221,29 @@ html {
     align-items: center;
     margin:1.2rem;
     margin-left: 0px;
-    min-width:5rem;
+    min-width:5rem; 
+    transition:background-color 2s;
+    transition-timing-function: ease-in;
     
 }
 .button1 {
     border:1px solid #FFC04A;
     padding-left: 1.4rem;
     padding-right: 1.4rem;
+} 
+.button1:hover {
+    background-color: #FFC04A; 
+    color:black; 
+    
 }
 .button2 {
     border:1px solid #2AFAC2;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
+}
+.button2:hover {
+    background-color: #2AFAC2; 
+    color:black; 
 }
 .button3 {
     border:1px solid #45E2FF;
@@ -223,14 +251,19 @@ html {
     padding-right: 2rem;
    
 }
+.button3:hover {
+    background-color:#45E2FF; 
+    color:black; 
+}
 .actionLinkContainer {
     flex-wrap: wrap;
     display: flex;
     justify-content: flex-start;
     padding: 0px;
+  
 }
 .Action-link-button {
-    background-image: linear-gradient(to right, #39B2B7, #42D4EA, #45E2FF);
+    background-color:  #45E2FF;
     color: #311A8B;
     padding:1rem 2rem 1rem 2rem;
     border-radius:2rem; 
@@ -238,6 +271,10 @@ html {
     font-size: 1.5rem; 
     font-weight: 700; 
     margin: 10px;
+} 
+.Action-link-button:hover{
+    background-color: #311A8B; 
+    color:#45E2FF;
 }
 /*---section4----*/
 .footer-part {
@@ -258,8 +295,8 @@ html {
     font-size: 11px;  
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center; 
+    transition:1s;
 }
 .FooterLinkContainer1 {
     display: flex;
@@ -271,19 +308,42 @@ html {
 }
 .nmbr1 { 
     padding:0.1rem 6.5rem 0.1rem 6.6rem;
+  
     
-}
+}  
+.nmbr1:hover { 
+    padding:0.1rem 6.5rem 0.1rem 6.6rem; 
+    color: #FA3B6E;
+    border:1px solid #FA3B6E;
+
+    
+}   
 .nmbr2 {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
+} 
+.nmbr2:hover{
+    color: #FA3B6E;
+    border:1px solid #FA3B6E;
+
 }
 .nmbr3 {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
 }
+.nmbr3:hover{ 
+    color: #FA3B6E;
+    border:1px solid #FA3B6E;
+
+}
 .nmbr4 {
     padding-left: 5rem;
     padding-right: 5.6rem;
+} 
+.nmbr4:hover {
+    color: #FA3B6E;
+    border:1px solid #FA3B6E;
+
 }
 .nmbr5 {
     padding-left: 15px;
@@ -300,12 +360,17 @@ html {
     justify-content: center;
     align-items: center;
     margin: 0px;
-    font-family:Poppins;
+    font-family:Poppins; 
+    
 }
 .pack-of-items {
     display: flex;
     flex-direction: column;
-    padding:1.4rem;   
+    padding:1.4rem; 
+    transition:3s;  
+} 
+.pack-of-items:hover {
+    background-color:lightpink;
 }
 .link-heading {
     font-family: Poppins;
