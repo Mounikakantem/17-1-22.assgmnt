@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
     <link rel="stylesheet" href="index.css"> 
-    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="style1.css"> 
+    
 </head>
 
 <body>
@@ -21,7 +22,7 @@
                 <li class="btn-section">
                     <button class="login-btn" type="submit">LOGIN</button>
                 </li>
-                <li class="btn-section">
+                <li class="btn-section nav-icon">
                     <img src="dots.png" alt="dots-img" class="dots-icon">
                 </li>
             </ul>
@@ -33,31 +34,44 @@
             <img class="laptop-img" src="laptop.png" alt="laptop">
         </section>
     </header>
-    <!--section2-->
+    <!--section2-->                                    
     <section class="bg-containersection2">
         <div class="section2-content">
-              <h1 class="Lorem-heading">Lorem Ipsum is simply dummy text of the printing and</h1>
+            <h1 class="Lorem-heading">Lorem Ipsum is simply dummy text of the printing and</h1>
         </div>
-        <section class="boxes-container">
-            <div class="card-container card1">
-                <img src="img.png" alt="img-dots" class="card-image">
-                <h3 class="title">Lorem Psum</h3>
-                <p class="description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <button type="button" class="boxbtn action-link1 ">ACTION LINK</button>
+        <div class="boxes-container">
+            <div class="flip-card">
+                <div class="inner-flip-card">
+                    <div class="card-container front-card">
+                        <img class="card-image" src="img.png" alt="dots">
+                        <h3 class="title">Lorem Psum</h3>
+                        <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                        <button type="button" class="boxbtn action-link1">ACTION LINK</button>
+                    </div>
+                    <div class="back-card">
+                        <img class="girl-img" src="girl.jpg" alt="Lorem ipsum">
+                    </div>
+                </div>
             </div>
-            <div class="card-container card2">
-                <img src="img.png" alt="img-dots" class="card-image">
-                <h3 class="title">Lorem Psum</h3>
-                <p class="description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                <button type="button" class="boxbtn action-link2">ACTION LINK</button>
+            <div class="flip-card">
+                <div class="inner-flip-card">
+                    <div class="card-container c1 front-card">
+                        <img class="card-image" src="img.png" alt="dots">
+                        <h3 class="title">Lorem Psum</h3>
+                        <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                        <button type="button" class="boxbtn action-link2">ACTION LINK</button>
+                    </div>
+                    <div class="back-card">
+                        <img class="girl-img" src="girl.jpg" alt="Lorem ipsum">
+                    </div>
+                </div>
             </div>
-        </section>
+    
         </div>
     </section>
+           
     <!--section3-->
     <section class="bg-containersection3">
         <div class="msg-containersec3">
@@ -126,5 +140,5 @@
         </div>
     </footer>
 </body>
-
+ 
 </html>
