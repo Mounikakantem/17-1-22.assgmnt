@@ -81,21 +81,23 @@ html {
 } 
 .signup-btn:hover {
     background-image: linear-gradient(to right,  #f16634, #8a0ee9de);
-
+} 
+.nav-icon {
+    width:100px;
+}
+.dots-icon {
+    transition: all 1s linear;
+}
+.dots-icon:hover {
+    transform: rotate(180deg);
 }
 .laptop-text-content{
      display: flex; 
      flex-direction: column; 
      justify-content: center; 
      align-items: center;
-     transition:  0.5s;
+     transition: all 5s ease;
 }  
-.dots-icon{
-    transition: transform 0.5s;
-}
-.dots-icon:hover {
-    transform: rotate(180deg);  
-}
 .heading {
     color:white;
     font-size:3.6rem;
@@ -104,31 +106,35 @@ html {
     margin-left: 1.3rem;
     padding: 0px;  
 
-}  
+}    
 .laptop-img {
     width: 25rem; 
     height: 25rem;  
     margin-left: 0px;
-    padding-left: 0px;   
+    padding-left: 0px;
+    position: relative;
+    animation: bounce 2s infinite linear;
+      
 }   
 .laptop-img:hover {
-    position: relative; 
-    animation:example 2s infinite linear;
+     bottom:2.5rem
 }
-@keyframes example {
-        0%   {left:0px; bottom:0px;}
-        25%   {left:0px; bottom:40px;}
-        50%   {left:0px; bottom:55px;}
-        100%   {left:0px; bottom:25px;}
+@keyframes bounce {
+   
+    0%  {bottom:0px;}
+    50% {bottom:30px;}
+    100% {bottom:0px}
+
       }
 /*------section2--------*/
 .bg-containersection2{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom:13rem;
 }
 .Lorem-heading {
     font-family: Poppins; 
@@ -158,14 +164,48 @@ html {
     margin-bottom:5rem ;
     transition:1s;
 } 
-.card-container:hover {
-    transform: rotate(180deg);  
-}     
+.flip-card{
+    width: 230px;
+    height: 220px;
+  }
+  .inner-flip-card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: all 2s ease;
+  }
+  .inner-flip-card:hover {
+    transform: rotateY(360deg);
+  }
+  .front-card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+  }
+  .back-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      border-radius: 10px;
+      backface-visibility: hidden;
+      overflow: hidden;
+      transform: rotateY(180deg);
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 
 .card-image{   
     width:6.4rem;
     height:6.7rem;
-    padding-bottom:1.8rem; 
+    padding-bottom:1.8rem;     
 }
 .boxes-container{
     display: flex;
@@ -238,8 +278,8 @@ html {
     margin:1.2rem;
     margin-left: 0px;
     min-width:5rem; 
-    transition:background-color 2s;
-    transition-timing-function: ease-in;
+    transition:background-color 0.8s;
+    transition-timing-function: linear;
     
 }
 .button1 {
@@ -286,7 +326,8 @@ html {
     border:#707070; 
     font-size: 1.5rem; 
     font-weight: 700; 
-    margin: 10px;
+    margin: 10px; 
+    transition: 0.8s ease-in;
 } 
 .Action-link-button:hover{
     background-color: #311A8B; 
@@ -340,7 +381,7 @@ html {
 } 
 .nmbr2:hover{
     color: #FA3B6E;
-    border:1px solid #FA3B6E;
+    border:1px solid #FA3B6E; 
 
 }
 .nmbr3 {
@@ -385,15 +426,13 @@ html {
     padding:1.4rem; 
     transition:1s;  
 } 
-.pack-of-items:hover {
-   color: #FA3B6E;
-}
+
 .link-heading {
     font-family: Poppins;
     font-weight: bold;
     margin: 0px;
     font-size:2rem; 
-    transition: 1s;
+
 }
 .f-links {
     font-family: Poppins;
@@ -401,6 +440,7 @@ html {
     text-decoration: none;
     color: #504450; 
     font-size:1.6rem;
+    transition: 0.5s linear;
 } 
 .f-links:hover {
     color: #FA3B6E;
@@ -409,8 +449,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    transition:0.5s;
+    align-items: center; 
 }
 .partnerbutton {
     color: #FA3B6E;
@@ -422,10 +461,12 @@ html {
     font-family: Poppins;
     font-weight:bold;
     margin:1.2rem; 
-    font-size:1.4rem; 
+    font-size:1.4rem;
+    transition:0.7s linear;
 } 
 .partnerbutton:hover {
-    background:light-blue;
+    background-color: #FA3B6E;
+    color:white;
 }
 .Contact-icons{
     display: flex;
@@ -435,6 +476,11 @@ html {
 }
 .icon {
     text-decoration: none;
+    transition: all 0.4s linear;
+}
+
+.icon:hover {
+    transform:rotateY(360deg);
 }
 .icon-facebook1::before {
     font-family: "icomoon";
@@ -442,7 +488,8 @@ html {
     font-size: 40px; 
     padding: 6px;
     color: blue;
-}
+}  
+
 .icon-twitter1::before {
     font-family: "icomoon";
     content: "\e908";
@@ -533,6 +580,11 @@ html {
         padding-left: 30px;
         margin: 20px;
         margin-bottom:3rem ;
+    } 
+
+    .flip-card {
+        height: 360px;
+        width: 260px;
     }
     .card-image{
         width:8rem;
@@ -667,13 +719,21 @@ html {
         flex-direction: row;
     }
     .card-container {
-        width:415px;
-        height: 33rem;                                     
+        width:38rem;
+        height:33rem;                                      
         padding-left: 40;
         padding-top: 80;
-        padding-right: 60;
+        padding-right:40;
         padding-bottom:2rem;
-        margin:40; 
+        margin-right:20rem; 
+        
+    } 
+    .c1 {
+        margin-left: 10rem;
+    }
+    .flip-card {
+        height:33rem;
+        width: 38rem;
     }
     .card-image {
         width:7rem;
@@ -754,3 +814,7 @@ html {
 
 
 }
+
+
+
+
